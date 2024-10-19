@@ -1,32 +1,41 @@
-.table {
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    border: 5px solid black;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.container{
+    margin: 20px auto;
+    width: 50%;
+   
+}
+
+.checkerboard{
+    height: 480px;
+    width: 480px;
     display: flex;
     flex-wrap: wrap;
-    height: 100px;
-    width: 100px;
     
-   }
-   
-   .black {
-       height: 100px;
-       width: 100px;
-       background-color: black;
-   }
-   
-   .white {
-       height: 100px;
-       width: 100px;
-       background-color: white;
-       
-   }
-   
-   .row {
-    height: 100px;
-    width: 100px;
-    
-   }
-   
-   td {
-       height: 100px;
-       width: 100px;
-       
-   }
+}
+
+.box{
+    height: 60px;
+    width: 60px;
+}
+
+.black{
+    background-color: black;
+width: 60px;
+height: 60px;
+        
+}
+
