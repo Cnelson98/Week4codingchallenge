@@ -1,0 +1,44 @@
+.itemimage{
+    height: 200px;
+    width: 200px;
+
+}
+
+.itemtitle {
+
+}
+
+.itemprice{
+font-family: italic;
+
+}
+
+.titledescription{
+
+}
+.grid-item{
+text-align: center;
+width: 100%; 
+border: 1px solid red;
+border-radius: 1.5rem;
+box-shadow: 10px 10px 10px 5px red;
+
+}
+.grid-container{
+margin: 10rem auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ gap: 1.5rem;
+ width: 80%;
+ 
+}
+ html{
+    background-color: blue;
+    color: white;
+ }
+
+ h1{
+    color: white;
+    margin-left: 40%;
+    margin-top: 40px;
+ }

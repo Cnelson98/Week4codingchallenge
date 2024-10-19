@@ -1,0 +1,24 @@
+table{
+ 
+    width:80%;
+    margin:50px;
+}
+
+ 
+tr:nth-child(odd){
+    background-color:red;
+    height:50px;
+    width:100px;
+}
+
+tr:nth-child(even){
+    background-color:white;
+    height:50px;
+    width:100px;
+}
+.stars{
+ width: 30%;
+ height:364px;
+ margin:0px 0px 0px 50px;
+position:absolute;
+}
